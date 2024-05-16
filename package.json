@@ -1,0 +1,37 @@
+{
+  "name": "range-checker",
+  "version": "1.0.0",
+  "description": "A simple utility to check if a number is within a specified range.",
+  "main": "index.js",
+  "type": "module",
+  "exports": "./index.js",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openmooncommunity/range-checker.git"
+  },
+  "keywords": [
+    "range",
+    "checker",
+    "check",
+    "number"
+  ],
+  "author": {
+    "name": "SpaceHub Studio",
+    "email": "support@spacehubnetwork.com",
+    "url": "https://spacehubnetwork.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^6.1.3"
+  }
+}
